@@ -1,0 +1,25 @@
+# 3-7 Shrinking Guest List
+guests = ["Alice", "Bob", "Charlie"]
+print(f"Hello, {guests[0]}! Please join me for dinner.")
+print(f"Hello, {guests[1]}! Please join me for dinner.")
+print(f"Hello, {guests[2]}! Please join me for dinner.")
+print("I've found a bigger table!")
+guests.insert(0, "David")
+guests.insert(2, "Eve")
+guests.append("Frank")
+print(f"Hello, {guests[0]}! Please join me for dinner.")
+print(f"Hello, {guests[1]}! Please join me for dinner.")
+print(f"Hello, {guests[2]}! Please join me for dinner.")
+print(f"Hello, {guests[3]}! Please join me for dinner.")
+print(f"Hello, {guests[4]}! Please join me for dinner.")
+print(f"Hello, {guests[5]}! Please join me for dinner.")
+print("I can only invite two people to dinner.")
+print(f"Sorry, {guests.pop()}. I can't invite you to dinner.")
+print(f"Sorry, {guests.pop()}. I can't invite you to dinner.")
+print(f"Sorry, {guests.pop()}. I can't invite you to dinner.")
+print(f"Sorry, {guests.pop()}. I can't invite you to dinner.")
+print(f"Hello, {guests[0]}! You're still invited to dinner.")
+print(f"Hello, {guests[1]}! You're still invited to dinner.")
+del guests[0]
+del guests[0]
+print(guests)

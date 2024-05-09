@@ -1,0 +1,18 @@
+# 3-10 Every function
+things = []
+things.append("apple")
+things.insert(0, "banana")
+things.insert(1, "cherry")
+print(len(things))
+print(f"The last thing I added to the list were {things.pop()}.")
+things.append("date")
+things.insert(0, "elderberry")
+things.insert(1, "fig")
+sorted_things = sorted(things)
+print(sorted_things)
+things.reverse()
+print(things)
+things.sort()
+print(things)
+things.sort(reverse=True)
+print(things)
